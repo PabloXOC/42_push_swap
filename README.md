@@ -2,7 +2,6 @@
 
 **Push Swap** is a sorting algorithm project designed to sort a stack of numbers in ascending order using a limited set of operations. The program works with two stacks, `a` and `b`, and implements an optimized sorting strategy based on the **quicksort** algorithm for larger lists and a trivial sorting approach for lists with five or fewer elements.  
 
----
 
 ## Project Overview  
 
@@ -20,7 +19,6 @@ The goal of the **Push Swap** program is to sort the numbers in stack `a` into a
   - Ensures no duplicate numbers are allowed.  
   - Validates input to guarantee proper stack initialization.  
 
----
 
 ## Allowed Operations  
 
@@ -45,8 +43,6 @@ The sorting process is performed using the following operations:
 - **rrb**: Reverse rotate stack `b` (last element becomes the first).  
 - **rrr**: Perform `rra` and `rrb` simultaneously.  
 
----
-
 ## Algorithm Details  
 
 ### Quicksort-Based Approach  
@@ -59,7 +55,6 @@ For stacks larger than 5 elements, the program uses a partitioning strategy insp
 ### Trivial Sorting System  
 For stacks of 5 or fewer elements, the program directly evaluates the positions of elements and applies minimal operations to sort them. This avoids the overhead of more complex algorithms for small inputs.  
 
----
 
 ## Compilation Instructions
 
@@ -81,10 +76,7 @@ Use the following commands for cleanup:
 - `make clean`: Remove object files.
 - `make fclean`: Remove object files and the compiled library.
 - `make re`: Rebuild the library from scratch.
-
-
-
----
+ 
 
 ## Output  
 
@@ -105,7 +97,6 @@ ARG="43 670 13 88 19"; ./push_swap $ARG | ./checker_OS $ARG
 
 Replace `checker_OS` with the appropriate version of the checker for your operating system. This command will verify whether the operations produced by `push_swap` correctly sort the given list.
 
----
 
 ## Error Handling  
 
@@ -118,6 +109,4 @@ Error
 - Duplicate numbers.  
 - Non-numeric input.  
 - Exceeding stack size limits.  
-
----
 
