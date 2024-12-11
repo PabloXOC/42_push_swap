@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algorithm_4.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: paxoc01 <paxoc01@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pximenez <pximenez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/21 13:17:11 by pximenez          #+#    #+#             */
-/*   Updated: 2024/02/09 13:58:37 by paxoc01          ###   ########.fr       */
+/*   Updated: 2024/12/11 15:02:21 by pximenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ void	ft_algorithm_4(t_list_int *list_a, t_list_int *list_b)
 		ra(list_a, 0);
 	while (list_a != NULL)
 	{
-		ft_printf("(%d)\n", list_a->content);
+		//ft_printf("(%d)\n", list_a->content);
 		list_a = list_a->next;
 	}
 	ft_lstclear_int(&list_a);

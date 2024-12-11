@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algorithm_5.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: paxoc01 <paxoc01@student.42.fr>            +#+  +:+       +#+        */
+/*   By: pximenez <pximenez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/21 13:17:11 by pximenez          #+#    #+#             */
-/*   Updated: 2024/02/09 13:58:41 by paxoc01          ###   ########.fr       */
+/*   Updated: 2024/12/11 15:01:53 by pximenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ void	ft_algorithm_5(t_list_int *list_a, t_list_int *list_b)
 	}
 	while (list_a != NULL)
 	{
-		ft_printf("(%d)\n", list_a->content);
+		//ft_printf("(%d)\n", list_a->content);
 		list_a = list_a->next;
 	}
 	ft_lstclear_int(&list_a);
